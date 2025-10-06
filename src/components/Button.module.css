@@ -1,0 +1,27 @@
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font: inherit;
+  font-size: var(--fs-text-2);
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  border: none;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.btnPrimary {}
+
+
+.btnSecondary {
+  background-color: var(--baby-powder);
+}
+
+.btnSecondary:hover {
+  box-shadow: inset 0 0 0 2px var(--baby-powder);
+  background: none;
+  color: var(--baby-powder);
+}

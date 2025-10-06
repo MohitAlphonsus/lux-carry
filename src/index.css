@@ -1,0 +1,70 @@
+:root {
+  --caput-mortuum: #4A2114ff;
+  --kobicha: #6C3A24ff;
+  --raw-umber: #9D5833ff;
+  --caput-mortuum-2: #512518ff;
+
+  --baby-powder: #FEFBF6ff;
+  --russet: #763510ff;
+  --coffee: #5E4335ff;
+  --rust: #A65424ff;
+
+  --bistre: #3E251Cff;
+  --white: #FEFEFEff;
+  --taupe: #4F423Cff;
+  --umber: #7D6153ff;
+  --silver: #C3BFBDff;
+
+  --fs-heading-1: 6rem;
+  --fs-text-1: 1.4rem;
+  --fs-text-2: 1.6rem;
+  --fs-text-3: 1.8rem;
+  --fs-text-4: 2rem;
+
+  --line-height-1: 1em;
+  --line-height-2: 1.6em
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scrollbar-width: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: var(--fs-text-2);
+  line-height: var(--line-height-2);
+  position: relative;
+  padding: 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: end;
+  gap: 1px;
+  position: absolute;
+  top: 3rem;
+  left: 5%;
+  color: var(--baby-powder);
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.logo>*:first-child {
+  font-size: 4rem;
+  color: var(--silver);
+}
+
+.logo>*:nth-child(2) {
+  margin-left: 1rem;
+}
+
+.logo>*:nth-child(3) {
+  color: var(--silver);
+}
