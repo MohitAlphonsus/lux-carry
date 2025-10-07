@@ -1,0 +1,19 @@
+.pageTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2rem;
+}
+
+.pageTitle span {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  background-color: var(--silver);
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: .5rem 1rem;
+}
+
+.pageTitle h3 {
+  font-size: 3rem;
+}
