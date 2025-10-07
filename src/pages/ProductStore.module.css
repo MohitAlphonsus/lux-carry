@@ -1,0 +1,29 @@
+.header {
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: var(--baby-powder);
+  position: relative;
+  z-index: -2;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.header h2 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.header p {
+  font-size: 1.8rem;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(74, 33, 20, .7);
+  z-index: -1;
+}
