@@ -1,28 +1,29 @@
 :root {
-  --caput-mortuum: #4A2114ff;
-  --kobicha: #6C3A24ff;
-  --raw-umber: #9D5833ff;
-  --caput-mortuum-2: #512518ff;
-
+  --color-primary-dark: #3d0c02;
+  --color-primary-medium: #6b3119;
   --baby-powder: #FEFBF6ff;
-  --russet: #763510ff;
-  --coffee: #5E4335ff;
-  --rust: #A65424ff;
-
-  --bistre: #3E251Cff;
   --white: #FEFEFEff;
-  --taupe: #4F423Cff;
-  --umber: #7D6153ff;
+  --dark: #0C0200;
   --silver: #C3BFBDff;
 
+  --partial-gradient-overlay: linear-gradient(to right, rgba(107, 50, 25, 1), rgba(107, 50, 25, .3), rgba(107, 50, 25, 1));
+
+
   --fs-heading-1: 6rem;
+  --fs-heading-2: 4rem;
+
   --fs-text-1: 1.4rem;
   --fs-text-2: 1.6rem;
   --fs-text-3: 1.8rem;
   --fs-text-4: 2rem;
 
   --line-height-1: 1em;
-  --line-height-2: 1.6em
+  --line-height-2: 1.6em;
+
+  --radius-sm: 3px;
+  --radius-md: 5px;
+  --radius-lg: 9px;
+  --radius-xl: 11px;
 }
 
 * {
@@ -41,6 +42,13 @@ body {
   font-size: var(--fs-text-2);
   line-height: var(--line-height-2);
   padding: 1rem;
+  /* background-color: var(--baby-powder); */
+
+}
+
+.container {
+  max-width: 130rem;
+  margin: 0 auto;
 }
 
 .logo {
@@ -66,4 +74,22 @@ body {
 
 .logo>*:nth-child(3) {
   color: var(--silver);
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  color: var(--baby-powder);
+  font-weight: 600;
+}
+
+.tags span {
+  display: inline-block;
+  padding: 0 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 3px;
+  background-color: var(--color-primary-medium);
 }

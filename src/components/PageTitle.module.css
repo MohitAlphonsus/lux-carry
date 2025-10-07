@@ -3,15 +3,19 @@
   flex-direction: column;
   align-items: start;
   gap: 2rem;
+  border-bottom: 1px solid var(--silver);
+  padding-bottom: 2rem;
+  margin-bottom: 6rem;
 }
 
 .pageTitle span {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   background-color: var(--silver);
   font-weight: 600;
   letter-spacing: 1px;
-  padding: .5rem 1rem;
+  padding: .2rem 1rem;
+  border-radius: var(--radius-sm);
 }
 
 .pageTitle h3 {

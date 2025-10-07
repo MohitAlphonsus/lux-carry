@@ -4,7 +4,7 @@ import { Products } from '../components';
 
 export default function ProductStore() {
 	return (
-		<>
+		<div className="container">
 			<header
 				className={styles.header}
 				style={{ backgroundImage: `url(${headerBannerImg})` }}
@@ -18,6 +18,6 @@ export default function ProductStore() {
 				</div>
 			</header>
 			<Products />
-		</>
+		</div>
 	);
 }

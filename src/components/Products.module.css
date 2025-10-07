@@ -1,9 +1,11 @@
 .productSection {
-  padding: 4rem 5%;
+  padding: 4rem 0;
+  color: var(--dark);
 }
 
 .products {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
+  margin-top: 4rem;
 }
