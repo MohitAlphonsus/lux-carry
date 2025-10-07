@@ -1,10 +1,10 @@
 // hero images
-import img1 from '../../public/imgs/hbp-1.jpg';
-import img2 from '../../public/imgs/hbp-2.jpg';
-import img3 from '../../public/imgs/hbp-3.jpg';
-import img4 from '../../public/imgs/hbp-4.jpg';
-import img5 from '../../public/imgs/hbp-5.jpg';
-import img6 from '../../public/imgs/hbp-6.jpg';
+import img1 from '../assets/imgs/hbp-1.jpg';
+import img2 from '../assets/imgs/hbp-2.jpg';
+import img3 from '../assets/imgs/hbp-3.jpg';
+import img4 from '../assets/imgs/hbp-4.jpg';
+import img5 from '../assets/imgs/hbp-5.jpg';
+import img6 from '../assets/imgs/hbp-6.jpg';
 
 // hero icons
 import { FaShippingFast, FaLock, FaAngleDoubleLeft } from 'react-icons/fa';
