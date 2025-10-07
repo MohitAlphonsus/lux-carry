@@ -1,0 +1,557 @@
+{
+	"products": [
+		{
+			"id": "fst-101",
+			"brand": "fastrack",
+			"name": "Colorblock Nylon Satchel Bag",
+			"price": 2878,
+			"ClosureType": "Zipper",
+			"OuterMaterial": "Nylon",
+			"Style": "Western",
+			"NumberOfPockets": 6,
+			"Weight": 445,
+			"dimensions": "32 x 12 x 29",
+			"about": [
+				"Modern Colorblock",
+				"Spacious & Organised",
+				"Quick Access",
+				"Low Maintenance",
+				"Secure Storage"
+			],
+			"images": [
+				{ "id": 1, "imgSrc": "/data/assets/fastrack/fastrack1/img-0.jpg" },
+				{ "id": 2, "imgSrc": "/data/assets/fastrack/fastrack1/img-1.jpg" },
+				{ "id": 3, "imgSrc": "/data/assets/fastrack/fastrack1/img-2.jpg" },
+				{ "id": 4, "imgSrc": "/data/assets/fastrack/fastrack1/img-3.jpg" },
+				{ "id": 5, "imgSrc": "/data/assets/fastrack/fastrack1/img-4.jpg" },
+				{ "id": 5, "imgSrc": "/data/assets/fastrack/fastrack1/img-5.jpg" }
+			]
+		},
+		{
+			"id": "fst-102",
+			"brand": "fastrack",
+			"name": "Lunette Sling",
+			"price": 1987,
+			"ClosureType": "Zipper",
+			"OuterMaterial": "Faux Leather",
+			"Style": "Western",
+			"NumberOfPockets": 3,
+			"Weight": 410,
+			"dimensions": "22 x 7 x 14.5",
+			"about": ["Soft-Pleated Sling Bag.", "Metal Chain Accents in Tan."],
+			"images": [
+				{ "id": 1, "imgSrc": "/data/assets/fastrack/fastrack2/img-0.jpg" },
+				{ "id": 2, "imgSrc": "/data/assets/fastrack/fastrack2/img-1.jpg" },
+				{ "id": 3, "imgSrc": "/data/assets/fastrack/fastrack2/img-2.jpg" },
+				{ "id": 4, "imgSrc": "/data/assets/fastrack/fastrack2/img-3.jpg" },
+				{ "id": 5, "imgSrc": "/data/assets/fastrack/fastrack2/img-4.jpg" },
+				{ "id": 6, "imgSrc": "/data/assets/fastrack/fastrack2/img-5.jpg" },
+				{ "id": 7, "imgSrc": "/data/assets/fastrack/fastrack2/img-6.jpg" }
+			]
+		},
+		{
+			"id": "fst-103",
+			"brand": "fastrack",
+			"name": "Structured Satchel Bag",
+			"price": 2696,
+			"ClosureType": "Zipper",
+			"OuterMaterial": "Faux Leather",
+			"Style": "Western",
+			"NumberOfPockets": 4,
+			"Weight": 530,
+			"dimensions": "24 x 8 x 17",
+			"about": [
+				"Seasonal Essential.",
+				"Signature Detail a knotted top.",
+				"Organised Interior.",
+				"Easy Access.",
+				"Versatile Carry."
+			],
+			"images": [
+				{ "id": 1, "imgSrc": "/data/assets/fastrack/fastrack3/img-0.jpg" },
+				{ "id": 2, "imgSrc": "/data/assets/fastrack/fastrack3/img-1.jpg" },
+				{ "id": 3, "imgSrc": "/data/assets/fastrack/fastrack3/img-2.jpg" },
+				{ "id": 4, "imgSrc": "/data/assets/fastrack/fastrack3/img-3.jpg" },
+				{ "id": 5, "imgSrc": "/data/assets/fastrack/fastrack3/img-4.jpg" },
+				{ "id": 6, "imgSrc": "/data/assets/fastrack/fastrack3/img-5.jpg" }
+			]
+		},
+		{
+			"id": "fst-104",
+			"brand": "fastrack",
+			"name": "Sherpa-Panel Sling Bag",
+			"price": 2966,
+			"ClosureType": "Zipper",
+			"OuterMaterial": "Faux Leather",
+			"Style": "Western",
+			"NumberOfPockets": 3,
+			"Weight": 430,
+			"dimensions": "22 x 7 x 15",
+			"about": [
+				"Monochrome Statement.",
+				"Compact Design.",
+				"Secure & Stylish.",
+				"Convertible Carry.",
+				"Easy Care & Warranty."
+			],
+			"images": [
+				{ "id": 1, "imgSrc": "/data/assets/fastrack/fastrack4/img-0.jpg" },
+				{ "id": 2, "imgSrc": "/data/assets/fastrack/fastrack4/img-1.jpg" },
+				{ "id": 3, "imgSrc": "/data/assets/fastrack/fastrack4/img-2.jpg" },
+				{ "id": 4, "imgSrc": "/data/assets/fastrack/fastrack4/img-3.jpg" },
+				{ "id": 5, "imgSrc": "/data/assets/fastrack/fastrack4/img-4.jpg" },
+				{ "id": 6, "imgSrc": "/data/assets/fastrack/fastrack4/img-5.jpg" }
+			]
+		},
+		{
+			"id": "fst-105",
+			"brand": "fastrack",
+			"name": "Structured Laptop Tote Bag",
+			"price": 4046,
+			"ClosureType": "Zipper",
+			"OuterMaterial": "Faux Leather",
+			"Style": "Western",
+			"NumberOfPockets": 3,
+			"Weight": 1020,
+			"dimensions": "39 x 10 x 26",
+			"about": [
+				"crafted from premium milled faux leather.",
+				"Three spacious compartments and multiple utility pockets.",
+				"Dedicated padded laptop sleeve.",
+				"Long double handles and detachable strap.",
+				"Low-maintenance care."
+			],
+			"images": [
+				{ "id": 1, "imgSrc": "/data/assets/fastrack/fastrack5/img-0.jpg" },
+				{ "id": 2, "imgSrc": "/data/assets/fastrack/fastrack5/img-1.jpg" },
+				{ "id": 3, "imgSrc": "/data/assets/fastrack/fastrack5/img-2.jpg" },
+				{ "id": 4, "imgSrc": "/data/assets/fastrack/fastrack5/img-3.jpg" },
+				{ "id": 5, "imgSrc": "/data/assets/fastrack/fastrack5/img-4.jpg" }
+			]
+		},
+		{
+			"id": "fst-106",
+			"brand": "fastrack",
+			"name": "Unisex Minimalist Nylon Sling Bag",
+			"price": 2426,
+			"ClosureType": "Zipper",
+			"OuterMaterial": "Nylon",
+			"Style": "Western",
+			"NumberOfPockets": 3,
+			"Weight": 296,
+			"dimensions": "22.5 x 10 x 13",
+			"about": [
+				"Minimalist Design.",
+				"Secure Storage, Hidden magnetic flap.",
+				"Smart Interior.",
+				"Versatile Carry, Detachable webbing strap.",
+				"Polished Finish, Silver hardware."
+			],
+			"images": [
+				{ "id": 1, "imgSrc": "/data/assets/fastrack/fastrack6/img-0.jpg" },
+				{ "id": 2, "imgSrc": "/data/assets/fastrack/fastrack6/img-1.jpg" },
+				{ "id": 3, "imgSrc": "/data/assets/fastrack/fastrack6/img-2.jpg" },
+				{ "id": 4, "imgSrc": "/data/assets/fastrack/fastrack6/img-3.jpg" },
+				{ "id": 5, "imgSrc": "/data/assets/fastrack/fastrack6/img-4.jpg" }
+			]
+		},
+		{
+			"id": "th-101",
+			"brand": "Tommy Hilfiger",
+			"name": "Solid Black Pu Sling Bag",
+			"price": 5648,
+			"ClosureType": "Snap",
+			"OuterMaterial": "Polyurethane",
+			"Style": "Western",
+			"NumberOfPockets": 1,
+			"Weight": 350,
+			"dimensions": "30 x 14 x 45",
+			"about": [
+				"Crafted from high-quality PU material",
+				"Versatile choice for various outfits and occasions",
+				"Solid pattern"
+			],
+			"images": [
+				{
+					"id": 1,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger1/img-0.jpg"
+				},
+				{
+					"id": 2,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger1/img-1.jpg"
+				},
+				{
+					"id": 3,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger1/img-2.jpg"
+				},
+				{
+					"id": 4,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger1/img-3.jpg"
+				},
+				{
+					"id": 5,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger1/img-4.jpg"
+				},
+				{
+					"id": 6,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger1/img-5.jpg"
+				}
+			]
+		},
+		{
+			"id": "th-102",
+			"brand": "Tommy Hilfiger",
+			"name": "Women Red Color-Blocked Shoulder Bag",
+			"price": 7114,
+			"ClosureType": "Zipper",
+			"OuterMaterial": "Polyurethane",
+			"Style": "Western",
+			"NumberOfPockets": 1,
+			"Weight": 400,
+			"dimensions": "14.5 x 14.5 x 13",
+			"about": [
+				"Product Type : Handbag",
+				"Fabric Composition : 100% Polyurethane",
+				"Pack Content : 1 Handbag",
+				"Pattern : Colour Block",
+				"Occasion : Casual"
+			],
+			"images": [
+				{
+					"id": 1,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger2/img-0.jpg"
+				},
+				{
+					"id": 2,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger2/img-1.jpg"
+				},
+				{
+					"id": 3,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger2/img-2.jpg"
+				},
+				{
+					"id": 4,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger2/img-3.jpg"
+				},
+				{
+					"id": 5,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger2/img-4.jpg"
+				},
+				{
+					"id": 6,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger2/img-5.jpg"
+				}
+			]
+		},
+		{
+			"id": "th-103",
+			"brand": "Tommy Hilfiger",
+			"name": "Solid Black Pu Handbags",
+			"price": 5669,
+			"ClosureType": "Snap",
+			"OuterMaterial": "Polyurethane",
+			"Style": "Western",
+			"NumberOfPockets": 1,
+			"Weight": 350,
+			"dimensions": "32 x 13 x 22",
+			"about": [
+				"Pattern : Solid",
+				"Color : Safari Canvas",
+				"practicality for all your casual outings",
+				"Tailored for the discerning woman,"
+			],
+			"images": [
+				{
+					"id": 1,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger3/img-0.jpg"
+				},
+				{
+					"id": 2,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger3/img-1.jpg"
+				},
+				{
+					"id": 3,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger3/img-2.jpg"
+				},
+				{
+					"id": 4,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger3/img-3.jpg"
+				},
+				{
+					"id": 5,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger3/img-4.jpg"
+				}
+			]
+		},
+		{
+			"id": "th-104",
+			"brand": "Tommy Hilfiger",
+			"name": "Womens Red Color Handbag",
+			"price": 8058,
+			"ClosureType": "Zipper",
+			"OuterMaterial": "Polyurethane",
+			"Style": "Western",
+			"NumberOfPockets": 1,
+			"Weight": 500,
+			"dimensions": "32 x 5 x 29",
+			"about": [
+				"Product type : Handbag",
+				"Color : Red",
+				"Fabric : PU",
+				"Pattern : Solid"
+			],
+			"images": [
+				{
+					"id": 1,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger4/img-0.jpg"
+				},
+				{
+					"id": 2,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger4/img-1.jpg"
+				},
+				{
+					"id": 3,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger4/img-2.jpg"
+				},
+				{
+					"id": 4,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger4/img-3.jpg"
+				},
+				{
+					"id": 5,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger4/img-4.jpg"
+				}
+			]
+		},
+		{
+			"id": "th-105",
+			"brand": "Tommy Hilfiger",
+			"name": "Solid Blue Cotton Handbags",
+			"price": 4720,
+			"ClosureType": "Zipper",
+			"OuterMaterial": "Cotton",
+			"Style": "Western",
+			"NumberOfPockets": 3,
+			"Weight": 350,
+			"dimensions": "36 x 25 x 15",
+			"about": [
+				"Color : Breezy Blue",
+				"casual ensemble with solid-pattern.",
+				"stylish addition to any woman's lineup."
+			],
+			"images": [
+				{
+					"id": 1,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger5/img-0.jpg"
+				},
+				{
+					"id": 2,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger5/img-1.jpg"
+				},
+				{
+					"id": 3,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger5/img-2.jpg"
+				},
+				{
+					"id": 4,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger5/img-3.jpg"
+				},
+				{
+					"id": 5,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger5/img-4.jpg"
+				}
+			]
+		},
+		{
+			"id": "th-106",
+			"brand": "Tommy Hilfiger",
+			"name": "Womens Black Color Handbag",
+			"price": 4742,
+			"ClosureType": "Zipper",
+			"OuterMaterial": "Polyester",
+			"Style": "Western",
+			"NumberOfPockets": 1,
+			"Weight": 500,
+			"dimensions": "32 x 5 x 29",
+			"about": ["Product type : Handbag", "Color : Black", "Pattern : Solid"],
+			"images": [
+				{
+					"id": 1,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger6/img-0.jpg"
+				},
+				{
+					"id": 2,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger6/img-1.jpg"
+				},
+				{
+					"id": 3,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger6/img-2.jpg"
+				},
+				{
+					"id": 4,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger6/img-3.jpg"
+				},
+				{
+					"id": 5,
+					"imgSrc": "/data/assets/tommy_hilfiger/tommy_hilfiger6/img-4.jpg"
+				}
+			]
+		},
+		{
+			"id": "eume-101",
+			"brand": "Eume",
+			"name": "Vegan Leather Flapper sling/side bag",
+			"price": 5219,
+			"ClosureType": "Zipper",
+			"OuterMaterial": "Faux Leather",
+			"Style": "Western",
+			"NumberOfPockets": 9,
+			"Weight": 1340,
+			"dimensions": "50 x 22 x 33",
+			"about": [
+				"Premium quality vegan leather.",
+				"Ample space and good grip.",
+				"A section in the middle is cushioned.",
+				"Can be carried wrist-free or shoulder-wise."
+			],
+			"images": [
+				{ "id": 1, "imgSrc": "/data/assets/eume/eume1/img-0.jpg" },
+				{ "id": 2, "imgSrc": "/data/assets/eume/eume1/img-1.jpg" },
+				{ "id": 3, "imgSrc": "/data/assets/eume/eume1/img-2.jpg" },
+				{ "id": 4, "imgSrc": "/data/assets/eume/eume1/img-3.jpg" },
+				{ "id": 5, "imgSrc": "/data/assets/eume/eume1/img-4.jpg" },
+				{ "id": 6, "imgSrc": "/data/assets/eume/eume1/img-5.jpg" }
+			]
+		},
+		{
+			"id": "eume-102",
+			"brand": "Eume",
+			"name": "Espresso Vegan Leather Women Handbag",
+			"price": 4769,
+			"ClosureType": "Flap",
+			"OuterMaterial": "Polyurethane",
+			"Style": "Contemporary",
+			"NumberOfPockets": 1,
+			"Weight": 1060,
+			"dimensions": "11.4 x 25.4 x 20.3",
+			"about": [
+				"Camouflage Design with a Long Detachable Sling Strap.",
+				"vegan leather with jacquard polysatin lining fabric.",
+				"Enough space in Main compartment.",
+				"Ideal for carrying all your essentials."
+			],
+			"images": [
+				{ "id": 1, "imgSrc": "/data/assets/eume/eume2/img-0.jpg" },
+				{ "id": 2, "imgSrc": "/data/assets/eume/eume2/img-1.jpg" },
+				{ "id": 3, "imgSrc": "/data/assets/eume/eume2/img-2.jpg" },
+				{ "id": 4, "imgSrc": "/data/assets/eume/eume2/img-3.jpg" },
+				{ "id": 5, "imgSrc": "/data/assets/eume/eume2/img-4.jpg" },
+				{ "id": 6, "imgSrc": "/data/assets/eume/eume2/img-5.jpg" }
+			]
+		},
+		{
+			"id": "eume-103",
+			"brand": "Eume",
+			"name": "Vegan Leather Broadwing sling/side bag",
+			"price": 5039,
+			"ClosureType": "Zipper",
+			"OuterMaterial": "Faux Leather",
+			"Style": "Western",
+			"NumberOfPockets": 4,
+			"Weight": 1000,
+			"dimensions": "50 x 22 x 43",
+			"about": [
+				"Made of premium quality vegan leather.",
+				"Basil Green, cotton drill lining inside.",
+				"This purse has double shoulder handles that are detachable.",
+				"Large compartment that opens up to a roomy interior cushion."
+			],
+			"images": [
+				{ "id": 1, "imgSrc": "/data/assets/eume/eume3/img-0.jpg" },
+				{ "id": 2, "imgSrc": "/data/assets/eume/eume3/img-1.jpg" },
+				{ "id": 3, "imgSrc": "/data/assets/eume/eume3/img-2.jpg" },
+				{ "id": 4, "imgSrc": "/data/assets/eume/eume3/img-3.jpg" },
+				{ "id": 5, "imgSrc": "/data/assets/eume/eume3/img-4.jpg" },
+				{ "id": 6, "imgSrc": "/data/assets/eume/eume3/img-5.jpg" }
+			]
+		},
+		{
+			"id": "eume-104",
+			"brand": "Eume",
+			"name": "Daffodil Vegan Leather Women Handbag",
+			"price": 4409,
+			"ClosureType": "Zipper",
+			"OuterMaterial": "Polyurethane",
+			"Style": "Contemporary",
+			"NumberOfPockets": 3,
+			"Weight": 1150,
+			"dimensions": "38 x 13 x 31",
+			"about": [
+				"Crafted with luxury vegan leather and jacquard polysatin lining.",
+				"Classic and versatile carryal.",
+				"Embellished with dome studs for a touch of sophistication.",
+				"Multiple carrying options & premium logo"
+			],
+			"images": [
+				{ "id": 1, "imgSrc": "/data/assets/eume/eume4/img-0.jpg" },
+				{ "id": 2, "imgSrc": "/data/assets/eume/eume4/img-1.jpg" },
+				{ "id": 3, "imgSrc": "/data/assets/eume/eume4/img-2.jpg" },
+				{ "id": 4, "imgSrc": "/data/assets/eume/eume4/img-3.jpg" },
+				{ "id": 5, "imgSrc": "/data/assets/eume/eume4/img-4.jpg" },
+				{ "id": 6, "imgSrc": "/data/assets/eume/eume4/img-5.jpg" }
+			]
+		},
+		{
+			"id": "eume-105",
+			"brand": "Eume",
+			"name": "Marshmallow Vegan Leather Handbag",
+			"price": 6299,
+			"ClosureType": "Zipper",
+			"OuterMaterial": "Polyurethane",
+			"Style": "Contemporary",
+			"NumberOfPockets": 3,
+			"Weight": 1310,
+			"dimensions": "53.3 x 30.5 x 30.5",
+			"about": [
+				"Camouflage Design Marshmallow sling bag.",
+				"Surface is digitally created with UV exposed embossed printing.",
+				"Ideal for carrying all your essentials.",
+				"Good quality zipper closure to keep your belongings safe and secure."
+			],
+			"images": [
+				{ "id": 1, "imgSrc": "/data/assets/eume/eume5/img-0.jpg" },
+				{ "id": 2, "imgSrc": "/data/assets/eume/eume5/img-1.jpg" },
+				{ "id": 3, "imgSrc": "/data/assets/eume/eume5/img-2.jpg" },
+				{ "id": 4, "imgSrc": "/data/assets/eume/eume5/img-3.jpg" },
+				{ "id": 5, "imgSrc": "/data/assets/eume/eume5/img-4.jpg" },
+				{ "id": 6, "imgSrc": "/data/assets/eume/eume5/img-5.jpg" }
+			]
+		},
+		{
+			"id": "eume-106",
+			"brand": "Eume",
+			"name": "Premium Vegan Leather Satchel Handbag",
+			"price": 4112,
+			"ClosureType": "Zipper",
+			"OuterMaterial": "Faux Leather",
+			"Style": "Western",
+			"NumberOfPockets": 1,
+			"Weight": 900,
+			"dimensions": "40 x 16 x 27",
+			"about": [
+				"Made of premium quality vegan leather with UV printed design.",
+				"Wipe with a clean, dry cloth when needed and repack in a muslin bag post use.",
+				"This bag has double handle straps and an additional drawstring.",
+				"Good quality zipper closure to keep your belongings safe and secure."
+			],
+			"images": [
+				{ "id": 1, "imgSrc": "/data/assets/eume/eume6/img-0.jpg" },
+				{ "id": 2, "imgSrc": "/data/assets/eume/eume6/img-1.jpg" },
+				{ "id": 3, "imgSrc": "/data/assets/eume/eume6/img-2.jpg" },
+				{ "id": 4, "imgSrc": "/data/assets/eume/eume6/img-3.jpg" },
+				{ "id": 5, "imgSrc": "/data/assets/eume/eume6/img-4.jpg" },
+				{ "id": 6, "imgSrc": "/data/assets/eume/eume6/img-5.jpg" }
+			]
+		}
+	]
+}
