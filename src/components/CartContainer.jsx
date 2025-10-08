@@ -1,20 +1,25 @@
 import styles from './CartContainer.module.css';
-import cartImg from '../../data/assets/eume/eume1/img-0.jpg';
 import { CartItem, CartCheckout } from '../components';
-
-const cartItems = [
-	{ id: 1, title: 'Leather Bag', cartImage: cartImg, quantity: 1, price: 3234 },
-];
+import { useSelector } from 'react-redux';
 
 export default function CartContainer() {
+	const cartItems = useSelector(state => state.cartItems);
+	console.log(cartItems);
+
 	return (
-		<section className={styles.cartContainer}>
-			<div className={styles.cartItems}>
-				{cartItems.map(item => (
-					<CartItem item={item} key={item.id} className={styles.cartItem} />
-				))}
-			</div>
-			<CartCheckout />
-		</section>
+		<>
+			{cartItems.length === 0 ? (
+				<p className={styles.message}>Cart is Empty</p>
+			) : (
+				<section className={styles.cartContainer}>
+					<div className={styles.cartItems}>
+						{cartItems?.map(item => (
+							<CartItem item={item} key={item.id} className={styles.cartItem} />
+						))}
+					</div>
+					<CartCheckout />
+				</section>
+			)}
+		</>
 	);
 }

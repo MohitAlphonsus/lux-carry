@@ -1,6 +1,7 @@
+import { useSelector } from 'react-redux';
+import { NavLink } from 'react-router';
 import styles from './Nav.module.css';
 import { Logo } from '../components';
-import { NavLink } from 'react-router';
 
 const navLinks = [
 	{ id: 1, linkName: 'Home', path: '/' },
@@ -10,6 +11,12 @@ const navLinks = [
 ];
 
 export default function Nav() {
+	const cartItems = useSelector(state => state.cartItems);
+	const totalItemsInCart = cartItems.reduce(
+		(accumlator, currentValue) => accumlator + currentValue.quantity,
+		0,
+	);
+
 	return (
 		<nav className={styles.nav}>
 			<Logo />
@@ -22,7 +29,7 @@ export default function Nav() {
 				</li>
 				<li className={styles.cartLink}>
 					<NavLink to="/cart">Cart</NavLink>
-					<span>0</span>
+					<span>{totalItemsInCart}</span>
 				</li>
 			</ul>
 		</nav>

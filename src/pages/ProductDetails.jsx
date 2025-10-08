@@ -1,4 +1,10 @@
 import { useEffect, useState } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import {
+	addToCart,
+	incrementQuantity,
+	decrementQuantity,
+} from '../store/cartSlice';
 import { useParams } from 'react-router';
 import { useProducts } from '../context/ProductsContext';
 import styles from './ProductDetails.module.css';
@@ -9,9 +15,17 @@ export default function ProductDetails() {
 	const [mainShowImg, setMainShowImg] = useState('');
 	const { id } = useParams();
 	const { product, isLoading, onFetchDetailsById } = useProducts();
+	const dispatch = useDispatch();
+	const cartItems = useSelector(state => state.cartItems);
+
+	const cartItem = cartItems.find(item => item.id === product.id);
 
 	function handleImageSwitch(srcImg) {
 		setMainShowImg(srcImg);
+	}
+
+	function handleAddToCart() {
+		dispatch(addToCart(product));
 	}
 
 	useEffect(function () {
@@ -83,8 +97,14 @@ export default function ProductDetails() {
 							<span>{product.price}</span>
 							<span>₹</span>
 						</p>
-						<Counter />
-						<Button>Add To Cart</Button>
+						{cartItem && (
+							<Counter
+								quantity={cartItem.quantity}
+								onDecrement={() => dispatch(decrementQuantity(product.id))}
+								onIncrement={() => dispatch(incrementQuantity(product.id))}
+							/>
+						)}
+						<Button onClick={handleAddToCart}>Add To Cart</Button>
 					</div>
 				</div>
 			</section>

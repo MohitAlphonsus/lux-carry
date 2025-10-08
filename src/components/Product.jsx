@@ -1,9 +1,25 @@
+import { useDispatch, useSelector } from 'react-redux';
+import { addToCart } from '../store/cartSlice.js';
 import styles from './Product.module.css';
 import { Button, Tags } from '../components';
 import { FaStar } from 'react-icons/fa';
 import { Link } from 'react-router';
 
 export default function Product({ product }) {
+	const dispatch = useDispatch();
+	const cartItems = useSelector(state => state.cartItems);
+
+	function handleAddToCart() {
+		const doesItemExist = cartItems.find(item => item.id === product.id);
+		dispatch(addToCart(product));
+
+		if (doesItemExist) {
+			alert('quantity updated');
+		} else {
+			alert('added to cart');
+		}
+	}
+
 	return (
 		<div className={styles.product}>
 			<Link to={`/product/${product.id}`}>
@@ -36,7 +52,7 @@ export default function Product({ product }) {
 					<span>{product.ratings}</span>
 				</div>
 				<span className={styles.productPrice}>{product.price}₹</span>
-				<Button>Add To Cart</Button>
+				<Button onClick={handleAddToCart}>Add To Cart</Button>
 			</div>
 		</div>
 	);

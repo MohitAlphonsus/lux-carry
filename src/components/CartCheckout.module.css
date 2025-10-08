@@ -22,9 +22,13 @@
   justify-content: space-between;
 }
 
+.cartSummaryGroup:nth-child(2)>*:last-child {
+  color: #ee5454;
+}
 
 .cartSummaryGroup:nth-child(4) {
   margin-bottom: 2rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid var(--color-primary-medium)
+  border-bottom: 1px solid var(--color-primary-medium);
+  font-weight: 600;
 }
