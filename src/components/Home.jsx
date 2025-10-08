@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router';
-import { Logo, Button } from '../components';
+import { Button } from '../components';
 import styles from './Home.module.css';
 
 import { heroImgs, heroFeatures } from '../constants/constant';
@@ -9,7 +9,6 @@ export default function Home() {
 
 	return (
 		<section className={styles.hero}>
-			<Logo />
 			<div className={styles.heroTextBox}>
 				<h1>Carry Elegance Everywhere</h1>
 				<p>

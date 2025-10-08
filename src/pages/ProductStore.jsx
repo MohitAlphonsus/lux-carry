@@ -1,22 +1,19 @@
 import styles from './ProductStore.module.css';
 import headerBannerImg from '../assets/imgs/product-banner.jpg';
-import { Products } from '../components';
+import { Products, Banner } from '../components';
+
+const headerLeadingTitle = 'Find Your Perfect Carry';
+const headerLeadingText =
+	'From everyday essentials to statement pieces, explore bags designed for every style, every journey.';
 
 export default function ProductStore() {
 	return (
 		<div className="container">
-			<header
-				className={styles.header}
-				style={{ backgroundImage: `url(${headerBannerImg})` }}
-			>
-				<div className={styles.headerText}>
-					<h2>Find Your Perfect Carry</h2>
-					<p>
-						From everyday essentials to statement pieces, explore bags designed
-						for every style, every journey.
-					</p>
-				</div>
-			</header>
+			<Banner
+				imgSrc={headerBannerImg}
+				heading={headerLeadingTitle}
+				text={headerLeadingText}
+			/>
 			<Products />
 		</div>
 	);

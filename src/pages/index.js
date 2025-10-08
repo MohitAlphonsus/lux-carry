@@ -1,2 +1,4 @@
 import ProductStore from './ProductStore';
-export { ProductStore };
+import Cart from './Cart';
+
+export { ProductStore, Cart };

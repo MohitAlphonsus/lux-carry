@@ -1,0 +1,30 @@
+.cartCheckout {
+  flex-basis: 40%;
+  background-color: #dfdfdf;
+  padding: 3rem;
+  border-radius: var(--radius-md);
+}
+
+.cartCheckout h5 {
+  font-size: 2rem;
+}
+
+.cartSummary {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.cartSummaryGroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.cartSummaryGroup:nth-child(4) {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--color-primary-medium)
+}

@@ -1,0 +1,21 @@
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.counter span {
+  font-size: var(--fs-text-4);
+  font-weight: 600;
+}
+
+.counter button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.counter button:hover {
+  scale: 1.2;
+}
