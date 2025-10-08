@@ -4,6 +4,8 @@ const ProductsContext = createContext();
 
 function ProductsProvider({ children }) {
 	const [productsData, setProductsData] = useState([]);
+	const [productDetails, setProductDetails] = useState({});
+	const [isLoading, setIsLoading] = useState(false);
 
 	async function fetchProductsData() {
 		const response = await fetch('http://localhost:3000/products');
@@ -11,12 +13,31 @@ function ProductsProvider({ children }) {
 		setProductsData(data);
 	}
 
+	async function fetchProductDetailsById(id) {
+		try {
+			setIsLoading(true);
+			const response = await fetch(`http://localhost:3000/products/${id}`);
+			const data = await response.json();
+			setIsLoading(false);
+			setProductDetails(data);
+		} catch (err) {
+			console.log(err);
+		}
+	}
+
 	useEffect(function () {
 		fetchProductsData();
 	}, []);
 
 	return (
-		<ProductsContext.Provider value={{ products: productsData }}>
+		<ProductsContext.Provider
+			value={{
+				products: productsData,
+				onFetchDetailsById: fetchProductDetailsById,
+				product: productDetails,
+				isLoading,
+			}}
+		>
 			{children}
 		</ProductsContext.Provider>
 	);

@@ -4,9 +4,6 @@ import { CartItem, CartCheckout } from '../components';
 
 const cartItems = [
 	{ id: 1, title: 'Leather Bag', cartImage: cartImg, quantity: 1, price: 3234 },
-	{ id: 2, title: 'Leather Bag', cartImage: cartImg, quantity: 1, price: 3643 },
-	{ id: 2, title: 'Leather Bag', cartImage: cartImg, quantity: 1, price: 3643 },
-	{ id: 2, title: 'Leather Bag', cartImage: cartImg, quantity: 1, price: 3643 },
 ];
 
 export default function CartContainer() {

@@ -1,16 +1,19 @@
 import styles from './Product.module.css';
 import { Button, Tags } from '../components';
 import { FaStar } from 'react-icons/fa';
+import { Link } from 'react-router';
 
 export default function Product({ product }) {
 	return (
 		<div className={styles.product}>
-			<div
-				className={styles.productImage}
-				style={{ backgroundImage: `url(${product.images[0].imgSrc})` }}
-			>
-				&nbsp;
-			</div>
+			<Link to={`/product/${product.id}`}>
+				<div
+					className={styles.productImage}
+					style={{ backgroundImage: `url(${product.images[0].imgSrc})` }}
+				>
+					&nbsp;
+				</div>
+			</Link>
 			<div className={styles.productContent}>
 				<h4 className={styles.truncateHeading}>
 					{product.name.length > 25

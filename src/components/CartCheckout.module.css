@@ -1,6 +1,6 @@
 .cartCheckout {
   flex-basis: 40%;
-  background-color: #dfdfdf;
+  background-color: var(--color-light);
   padding: 3rem;
   border-radius: var(--radius-md);
 }
