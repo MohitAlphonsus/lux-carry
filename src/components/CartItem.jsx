@@ -7,11 +7,23 @@ import { useDispatch } from 'react-redux';
 import styles from './CartItem.module.css';
 import { Counter } from '../components';
 import { FaTrash } from 'react-icons/fa6';
+import { ToastContainer, toast } from 'react-toastify';
 
 export default function CartItem({ item }) {
 	const dispatch = useDispatch();
 
-	console.log(item);
+	function handleRemoveCartItem() {
+		dispatch(removeItem(item.id));
+		toast.info('Item removed from cart', {
+			position: 'top-right',
+			autoClose: 2000,
+			closeOnClick: false,
+			hideProgressBar: false,
+			progress: undefined,
+			theme: 'light',
+		});
+	}
+
 	return (
 		<div className={styles.cartItem}>
 			<div
@@ -32,10 +44,11 @@ export default function CartItem({ item }) {
 			</p>
 			<button
 				className={styles.cartItemRemoveBtn}
-				onClick={() => dispatch(removeItem(item.id))}
+				onClick={handleRemoveCartItem}
 			>
 				<FaTrash />
 			</button>
+			<ToastContainer />
 		</div>
 	);
 }

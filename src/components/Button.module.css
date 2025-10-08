@@ -26,6 +26,10 @@
   background: none;
 }
 
+.btnPrimary:active {
+  background-color: var(--color-primary-medium);
+  color: #fff;
+}
 
 .btnSecondary {
   background-color: var(--baby-powder);

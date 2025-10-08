@@ -10,6 +10,7 @@ import { useProducts } from '../context/ProductsContext';
 import styles from './ProductDetails.module.css';
 import { Button, Counter, Tags } from '../components';
 import { FaCheckCircle } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
 
 export default function ProductDetails() {
 	const [mainShowImg, setMainShowImg] = useState('');
@@ -25,7 +26,28 @@ export default function ProductDetails() {
 	}
 
 	function handleAddToCart() {
+		const doesItemExist = cartItems.find(item => item.id === product.id);
 		dispatch(addToCart(product));
+
+		if (doesItemExist) {
+			toast.info('Item quantity updated!', {
+				position: 'top-right',
+				autoClose: 2000,
+				closeOnClick: false,
+				hideProgressBar: false,
+				progress: undefined,
+				theme: 'light',
+			});
+		} else {
+			toast.success('Cart item added', {
+				position: 'top-right',
+				autoClose: 2000,
+				closeOnClick: false,
+				hideProgressBar: false,
+				progress: undefined,
+				theme: 'light',
+			});
+		}
 	}
 
 	useEffect(function () {
@@ -108,6 +130,7 @@ export default function ProductDetails() {
 					</div>
 				</div>
 			</section>
+			<ToastContainer />
 		</div>
 	);
 }

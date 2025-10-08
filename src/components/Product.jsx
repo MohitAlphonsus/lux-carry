@@ -4,6 +4,7 @@ import styles from './Product.module.css';
 import { Button, Tags } from '../components';
 import { FaStar } from 'react-icons/fa';
 import { Link } from 'react-router';
+import { ToastContainer, toast } from 'react-toastify';
 
 export default function Product({ product }) {
 	const dispatch = useDispatch();
@@ -14,9 +15,23 @@ export default function Product({ product }) {
 		dispatch(addToCart(product));
 
 		if (doesItemExist) {
-			alert('quantity updated');
+			toast.info('Item quantity updated!', {
+				position: 'top-right',
+				autoClose: 2000,
+				hideProgressBar: false,
+				closeOnClick: true,
+				progress: undefined,
+				theme: 'light',
+			});
 		} else {
-			alert('added to cart');
+			toast.success('Cart item added', {
+				position: 'top-right',
+				autoClose: 2000,
+				closeOnClick: false,
+				hideProgressBar: false,
+				progress: undefined,
+				theme: 'light',
+			});
 		}
 	}
 
@@ -54,6 +69,7 @@ export default function Product({ product }) {
 				<span className={styles.productPrice}>{product.price}₹</span>
 				<Button onClick={handleAddToCart}>Add To Cart</Button>
 			</div>
+			<ToastContainer />
 		</div>
 	);
 }
