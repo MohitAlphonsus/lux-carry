@@ -1,11 +1,12 @@
 import { FaBagShopping } from 'react-icons/fa6';
+import { Link } from 'react-router';
 
 export default function Logo() {
 	return (
-		<div className="logo">
+		<Link className="logo" to="/">
 			<FaBagShopping />
 			<span>Lux</span>
 			<span>Carry</span>
-		</div>
+		</Link>
 	);
 }
