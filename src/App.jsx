@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router';
 import { Home, Nav, ProtectedRoute } from './components';
-import { ProductStore, ProductDetails, Cart, Login } from './pages';
+import { ProductStore, ProductDetails, Cart, Login, Checkout } from './pages';
 import { ProductsProvider } from './context/ProductsContext';
 
 export default function App() {
@@ -32,6 +32,14 @@ export default function App() {
 						element={
 							<ProtectedRoute>
 								<Cart />
+							</ProtectedRoute>
+						}
+					/>
+					<Route
+						path="/checkout"
+						element={
+							<ProtectedRoute>
+								<Checkout />
 							</ProtectedRoute>
 						}
 					/>
