@@ -8,7 +8,7 @@
 
 > Store logic and Login functionality is managed with redux. Login is faked and credentials are displayed at the end of login page to stimulate login.
 
-> Products API is stimulated using _json-server_ and everything about products is managed with Context API.
+> Products API is stimulated using <strong>json-server</strong> and everything about products is managed with Context API.
 
 > Plain CSS is used for UI, and external libraries used for other (toastify, react-icons, react-router)
 
