@@ -17,7 +17,7 @@ export default function ProductDetails() {
 	const { id } = useParams();
 	const { product, isLoading, onFetchDetailsById } = useProducts();
 	const dispatch = useDispatch();
-	const cartItems = useSelector(state => state.cartItems);
+	const cartItems = useSelector(state => state.cart.cartItems);
 
 	const cartItem = cartItems.find(item => item.id === product.id);
 
@@ -31,7 +31,7 @@ export default function ProductDetails() {
 
 		if (doesItemExist) {
 			toast.info('Item quantity updated!', {
-				position: 'top-right',
+				position: 'bottom-right',
 				autoClose: 2000,
 				closeOnClick: false,
 				hideProgressBar: false,

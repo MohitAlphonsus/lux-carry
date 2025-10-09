@@ -11,7 +11,7 @@ import CartContainer from './CartContainer';
 import CartItem from './CartItem';
 import CartCheckout from './CartCheckout';
 import Counter from './Counter';
-
+import ProtectedRoute from './ProtectedRoute';
 export {
 	Logo,
 	Home,
@@ -26,4 +26,5 @@ export {
 	CartItem,
 	CartCheckout,
 	Counter,
+	ProtectedRoute,
 };

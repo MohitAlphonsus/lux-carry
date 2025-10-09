@@ -3,7 +3,7 @@ import { CartItem, CartCheckout } from '../components';
 import { useSelector } from 'react-redux';
 
 export default function CartContainer() {
-	const cartItems = useSelector(state => state.cartItems);
+	const cartItems = useSelector(state => state.cart.cartItems);
 	console.log(cartItems);
 
 	return (

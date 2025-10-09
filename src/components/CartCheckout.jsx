@@ -6,6 +6,7 @@ import { useSelector } from 'react-redux';
 export default function CartCheckout() {
 	const total = useSelector(subTotal);
 	const discountPercentage = 10;
+	const deliveryCharges = 100;
 	const discountAmount = (total * discountPercentage) / 100;
 	const TotalAmountWithDiscount = total - discountAmount;
 	console.log('Cart total:', total);
@@ -24,11 +25,11 @@ export default function CartCheckout() {
 				</div>
 				<div className={styles.cartSummaryGroup}>
 					<span>Delivery Charges</span>
-					<span>100₹</span>
+					<span>{deliveryCharges}₹</span>
 				</div>
 				<div className={styles.cartSummaryGroup}>
 					<span>Total </span>
-					<span>{TotalAmountWithDiscount}₹</span>
+					<span>{TotalAmountWithDiscount + deliveryCharges}₹</span>
 				</div>
 				<Button prority="SECONDARY">Checkout</Button>
 			</div>

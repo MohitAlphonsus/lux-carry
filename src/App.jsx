@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router';
-import { Home, Nav } from './components';
-import { ProductStore, ProductDetails, Cart } from './pages';
+import { Home, Nav, ProtectedRoute } from './components';
+import { ProductStore, ProductDetails, Cart, Login } from './pages';
 import { ProductsProvider } from './context/ProductsContext';
 
 export default function App() {
@@ -10,9 +10,31 @@ export default function App() {
 				<Nav />
 				<Routes>
 					<Route path="/" element={<Home />} />
-					<Route path="/product-store" element={<ProductStore />} />
-					<Route path="/product/:id" element={<ProductDetails />} />
-					<Route path="/cart" element={<Cart />} />
+					<Route path="/login" element={<Login />} />
+					<Route
+						path="/product-store"
+						element={
+							<ProtectedRoute>
+								<ProductStore />
+							</ProtectedRoute>
+						}
+					/>
+					<Route
+						path="/product/:id"
+						element={
+							<ProtectedRoute>
+								<ProductDetails />
+							</ProtectedRoute>
+						}
+					/>
+					<Route
+						path="/cart"
+						element={
+							<ProtectedRoute>
+								<Cart />
+							</ProtectedRoute>
+						}
+					/>
 				</Routes>
 			</BrowserRouter>
 		</ProductsProvider>

@@ -8,15 +8,15 @@ import { ToastContainer, toast } from 'react-toastify';
 
 export default function Product({ product }) {
 	const dispatch = useDispatch();
-	const cartItems = useSelector(state => state.cartItems);
+	const cartItems = useSelector(state => state.cart.cartItems);
 
 	function handleAddToCart() {
-		const doesItemExist = cartItems.find(item => item.id === product.id);
+		const doesItemExist = cartItems?.find(item => item.id === product.id);
 		dispatch(addToCart(product));
 
 		if (doesItemExist) {
 			toast.info('Item quantity updated!', {
-				position: 'top-right',
+				position: 'bottom-right',
 				autoClose: 2000,
 				hideProgressBar: false,
 				closeOnClick: true,
@@ -25,7 +25,7 @@ export default function Product({ product }) {
 			});
 		} else {
 			toast.success('Cart item added', {
-				position: 'top-right',
+				position: 'bottom-right',
 				autoClose: 2000,
 				closeOnClick: false,
 				hideProgressBar: false,

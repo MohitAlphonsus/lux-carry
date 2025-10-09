@@ -49,7 +49,7 @@ export default cartSlice.reducer;
 
 // Derived state
 export const subTotal = state =>
-	state.cartItems.reduce(
+	state.cart.cartItems.reduce(
 		(accumlator, currentValue) =>
 			accumlator + currentValue.price * currentValue.quantity,
 		0,

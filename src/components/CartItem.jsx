@@ -15,7 +15,7 @@ export default function CartItem({ item }) {
 	function handleRemoveCartItem() {
 		dispatch(removeItem(item.id));
 		toast.info('Item removed from cart', {
-			position: 'top-right',
+			position: 'bottom-right',
 			autoClose: 2000,
 			closeOnClick: false,
 			hideProgressBar: false,

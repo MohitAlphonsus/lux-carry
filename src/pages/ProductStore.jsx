@@ -1,4 +1,3 @@
-import styles from './ProductStore.module.css';
 import headerBannerImg from '../assets/imgs/product-banner.jpg';
 import { Products, Banner } from '../components';
 
