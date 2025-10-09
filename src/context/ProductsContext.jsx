@@ -1,5 +1,4 @@
 import { createContext, useState, useEffect, useContext } from 'react';
-
 const ProductsContext = createContext();
 
 function ProductsProvider({ children }) {
@@ -8,7 +7,7 @@ function ProductsProvider({ children }) {
 	const [isLoading, setIsLoading] = useState(false);
 
 	async function fetchProductsData() {
-		const response = await fetch('http://localhost:3000/products');
+		const response = await fetch('http://localhost:3000/products/');
 		const data = await response.json();
 		setProductsData(data);
 	}
