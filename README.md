@@ -1,16 +1,33 @@
-# React + Vite
+# E-COMMERCE STORE OF BAGS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+`npm install`
 
-Currently, two official plugins are available:
+`npm run server`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+`npm run dev`
 
-## React Compiler
+> Store logic and Login functionality is managed with redux. Login is faked and credentials are displayed at the end of login page to stimulate login.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> Products API is stimulated using _json-server_ and everything about products is managed with Context API.
 
-## Expanding the ESLint configuration
+> Plain CSS is used for UI, and external libraries used for other (toastify, react-icons, react-router)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+#### HOME
+
+![alt text](/public/SCREENSHOTS/HOME_SNAPSHOT.png)
+
+#### PRODUCTS LIST / STORE
+
+![alt text](/public/SCREENSHOTS/PRODUCTS_SNAPSHOT.png)
+
+#### PRODUCT DETAILS
+
+![alt text](/public/SCREENSHOTS/PRODUCT_DETAILS_SNAPSHOT.png)
+
+#### CART
+
+![alt text](/public/SCREENSHOTS/CART_SNAPSHOT.png)
+
+#### LOGIN
+
+![alt text](/public/SCREENSHOTS/LOGIN_SNAPSHOT.png)
